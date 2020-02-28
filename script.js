@@ -1,5 +1,5 @@
 (function(){
-  var endpoint = "http://dudurudh.com/wp-json/wp-json/wp-v2/posts",
+  var endpoint = "http://dudurudh.com/wp-json/wp/v2/posts",
       itemsPerPage = 3,
       vm;
 
