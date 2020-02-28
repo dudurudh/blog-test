@@ -44,12 +44,7 @@ return months[month] + " " + day + ", "+year;
         this.showed+=itemsPerPage;
       }
     },
-    ready:function(){
-      this.$http.jsonp(endpoint+"/posts", {per_page:100},{jsonp: "_jsonp"}).then(function (response) {
-          vm.items = response.data;
-          vm.loading = false;
-      });
     }
-  });
+  );
 
 })();
